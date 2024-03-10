@@ -17,9 +17,8 @@ The telecommunication industry is rapidly evolving, with media transmission bein
 6. Model Evaluation
 7. Recommendations and Conclusions
 
-## Business Understanding
+## 1. Business Understanding
 
-<
 ### Business Problem
 Customer churn poses a significant challenge for telecom companies like SyriaTel, impacting revenue, marketing expenses, and brand perception. Losing customers not only reduces immediate income but also escalates the expenses associated with acquiring new ones. This project aims to understand the reasons behind customer departures and mitigate further churn to foster long-term profitability and customer loyalty.
 
@@ -27,25 +26,18 @@ Customer churn poses a significant challenge for telecom companies like SyriaTel
 - Create a machine learning model to predict customer churn accurately.
 - Identify key factors contributing to churn.
 - Utilize the model to estimate churn probability.
->
 
-## Data Understanding
+## 2. Data Understanding
 
-<
 ### Dataset
 The dataset titled "Churn in Telecom" sourced from Kaggle provides details on customer activity, specifically whether they have terminated their subscription with the telecom company. This dataset aims to aid the telecom industry in minimizing financial losses attributed to short-term customer retention. Data understanding involves familiarizing with the dataset, identifying data quality issues, and conducting exploratory data analysis.
->
 
-## Data Preparation
+## 3. Data Cleaning
 
-<
 This step involves examining the dataframe for anomalies, including missing values, placeholder values, or distinct values.
 
->
+## 4. Exploratory Data Analysis
 
-## Exploratory Data Analysis
-
-<
 ### 4.1 Univariate EDA
 
 Univariate data analysis focuses on analyzing individual variables. This involves studying each feature's distribution to comprehend its properties and detect anomalies like outliers.
@@ -57,11 +49,9 @@ Bivariate analysis examines the relationship between two variables. This will he
 ### 4.3 Multivariate Analysis
 
 Multivariate analysis investigates the interplay among multiple variables, focusing on their correlation with the target variable, customer churn. A correlation matrix will be utilized to discern associations among variables.
->
 
-## Modelling
+## 5. Modeling
 
-<
 In the churn prediction project, various models will be created, evaluated, and fine-tuned to predict customer churn based on dataset features.
 
 ### 5.1 Logistic Regression
@@ -81,11 +71,9 @@ Random Forest creates multiple decision trees and derives predictions by averagi
 XGBoost merges weak models, like decision trees, using gradient boosting and ensemble learning, forming a potent predictive model.
 
 The ROC_AUC metric will evaluate the performance of these models.
->
 
-## Model Evaluation
+## 6. Model Evaluation
 
-<
 During this stage, models will be assessed using recall scores and ROC_AUC. The top two models will then be selected for further fine-tuning.
 
 ### 6.1 Model Comparison - Recall Score
@@ -98,10 +86,7 @@ After assessing the models, it's evident that both XGBoost and RandomForest clas
 
 - Tuning Random Forest
 - Tuning XGBoost
->
 
-## Recommendations and Conclusions
-<
 ## Conclusion
 
 This analysis successfully achieved the objectives of building a machine learning model for customer churn prediction and estimating churn probability. 
@@ -137,4 +122,4 @@ SyriaTel should implement strategic customer retention efforts addressing these 
 
 - Multicollinearity Issues: Address multicollinearity among predictor variables.
 - Class Imbalance: Mitigate bias towards the majority class by preprocessing data effectively.
->
+     

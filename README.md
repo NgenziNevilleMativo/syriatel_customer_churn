@@ -123,3 +123,18 @@ SyriaTel should implement strategic customer retention efforts addressing these 
 
 - Multicollinearity Issues: Address multicollinearity among predictor variables.
 - Class Imbalance: Mitigate bias towards the majority class by preprocessing data effectively.
+
+# Repository Structure
+
+├── LICENSE.md                           <- The license for the project                    
+|
+├── README.md                            <- The top-level README for reviewers of this project
+|
+├── index.ipynb                          <- Narrative documentation of analysis in Jupyter Notebook
+|
+├── presentation.pdf                     <- PDF version of project presentation
+|
+├── telecom.csv                          <- Dataset used in the analysis 
+|
+└── write-up.pdf                         <- PDF version of project write up
+     

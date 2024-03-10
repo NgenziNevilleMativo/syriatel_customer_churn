@@ -1,6 +1,6 @@
 # Phase 3 Project: SyriaTel Customer Churn Prediction
 
-**Author**: Neville Ngenzi
+**Author**: [Neville Ngenzi](https://github.com/NgenziNevilleMativo)
 
 ## Introduction
 
@@ -84,9 +84,8 @@ The recall score quantifies the proportion of actual positive instances that the
 
 After assessing the models, it's evident that both XGBoost and RandomForest classifiers exhibit promising performance. Fine-tuning via GridSearch will be employed to enhance their effectiveness further.
 
-#### 6.2.1 Tuning Random Forest
-
-#### 6.2.2 Tuning XGBoost
+- Tuning Random Forest
+- Tuning XGBoost
 
 ## Conclusion
 
@@ -96,7 +95,7 @@ Two models, Random Forest and XGBoost, were compared for effectiveness in predic
 
 Both models demonstrated strong performance, with Random Forest showcasing robust overall performance and XGBoost achieving a high recall score.
 
-**Recommendation**: SyriaTel should prioritize the Random Forest Classifier as the primary model for predicting customer churn due to its superior overall performance and accurate identification of potential churners.
+**Discussion**: SyriaTel should prioritize the Random Forest Classifier as the primary model for predicting customer churn due to its superior overall performance and accurate identification of potential churners.
 
 ## Recommendation
 
